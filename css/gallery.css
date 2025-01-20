@@ -1,0 +1,188 @@
+#header {
+    position: relative;
+    text-align: center;
+    height: 630px;
+    width: 100%;
+    background-image: url("../Images/canvas.jpeg") !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  /* General styles for flex layout */
+
+  .flex {
+    justify-content: space-evenly;
+    display: flex;
+    width: 100%;
+    height: 350px;
+    margin: 20px auto 0 auto;
+}
+
+.child {
+    position: relative;
+}
+
+.child img {
+    width: 337px;
+    height: 421px;
+}
+
+/* Span text styling inside child */
+span {
+    color: white;
+    font-size: 23px;
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    transform: translateX(-50%);
+}
+
+.child:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+/* Adjust image container */
+.images {
+    position: relative;
+    top: 30px;  
+}
+
+.images h1 {
+    text-align: center;
+}
+
+/* Armenia section */
+.armenia { 
+    margin: 10px auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; /* Allow images to wrap on smaller screens */
+}
+
+.armenia div {
+    box-shadow: 0 0 10px black;
+    width: 18%; /* Adjust for larger screen sizes */
+    height: auto;
+    margin: 5px;
+}
+
+.armenia img {
+    transition: transform 0.5s;
+    width: 100%;
+    height: auto;
+}
+
+.armenia img:hover {
+    border: 1px solid black;
+    transform: scale(1.1);
+}
+
+/* Nature section */
+.nature {
+    margin: 10px auto;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; /* Allow images to wrap */
+}
+
+.nature div {
+    width: 17%;
+    height: auto;
+    margin: 5px;
+}
+
+.nature img {
+    transition: transform 0.5s;
+    width: 100%;
+    height: auto;
+}
+
+.nature img:hover {
+    border: 1px solid black;
+    transform: scale(1.1);
+}
+
+/* Text section */
+.text {
+    margin-top: 200px;
+    text-align: center;
+}
+
+/* Media Queries for Responsiveness */
+
+/* For tablets and small screens */
+@media (max-width: 768px) {
+    .flex {
+        flex-direction: column; /* Stack images vertically */
+        height: auto;
+    }
+
+    .child {
+        width: 80%; /* Adjust size for smaller screens */
+        margin: 10px auto;
+    }
+
+    .armenia div,
+    .nature div {
+        width: 45%; /* Allow images to take more space on small screens */
+        margin: 5px 0;
+    }
+
+    .text {
+        font-size: 1.5rem;
+    }
+
+    .images h1 {
+        font-size: 1.5rem;
+    }
+}
+
+/* For small mobile devices */
+@media (max-width: 480px) {
+    .flex {
+        flex-direction: column; /* Stack images vertically */
+        align-items: center;
+    }
+
+    .child img {
+        width: 90%; /* Scale images down for mobile */
+    }
+
+    .armenia div,
+    .nature div {
+        width: 90%; /* Make images occupy full width */
+        margin: 10px 0;
+    }
+
+    .text {
+        font-size: 1.2rem; /* Adjust font size */
+    }
+
+    .images h1 {
+        font-size: 1.2rem;
+    }
+}
+
+ #header h1{
+    margin: 0;
+}
+  header {
+    width: 100%;
+    height: 550px;
+      padding: 20px;
+      background-color: rgba(46, 96, 114, 0.666);
+      text-align: center;
+      
+  }
+
+  .align {
+    margin-top: 30px;
+    text-align: center;
+  }

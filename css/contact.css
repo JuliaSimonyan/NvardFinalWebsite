@@ -1,0 +1,41 @@
+#header {
+    position: relative;
+    text-align: center;
+    height: 630px;
+    width: 100%;
+    background-image: url("../Images/chinesetemple.png") !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  
+.Icon5 {
+    font-size: 80px;
+    color: white
+}
+
+.details {
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+    display: flex;
+    justify-content: space-around;
+    width: 51%;
+    height: 150px;
+    background-color: rgb(94, 58, 58);
+    
+}
+.details div{
+    margin-top: 33px;
+
+}
+.details p {
+    display: inline-block;
+}
+
+.Icon5:hover {
+    opacity: 0.7;
+}

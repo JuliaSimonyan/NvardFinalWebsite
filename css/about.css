@@ -1,0 +1,38 @@
+#header {
+    position: relative;
+    text-align: center;
+    height: 630px;
+    width: 100%;
+    background-image: url("../Images/nvard1autumn1.png") !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  
+.row {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  .handmadearts {
+    margin-top: 100px;
+    text-align: center;
+  }
+  
+  /* Create three equal columns that sit next to each other */
+  .column {
+    flex: 33.33%;
+    max-width: 33.33%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  

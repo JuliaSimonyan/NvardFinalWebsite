@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/gallery.css">
+    <title>Document</title>
+</head>
+<body>
+    <header id="header">
+        <div class="header-container">
+            <!-- Logo -->
+            <div class="logo">
+                <img src="../Images/logo.png" alt="Logo">
+            </div>
+    
+            <!-- Hamburger Menu -->
+            <button id="menu-toggle" aria-label="Toggle Navigation">&#9776;</button>
+    
+            <!-- Navigation -->
+            <nav id="navbar">
+                <ul>
+                    <li><a class="link" href="../index.html">Home</a></li>
+                    <li><a class="link" href="about.html">About</a></li>
+                    <li><a class="link" href="blog.html">Blog</a></li>
+                    <li><a class="link" href="gallery.html">Gallery</a></li>
+                    <li><a class="link" href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="welcome-section">
+            <h1>Artist's Gallery</h1>
+           
+        </div>
+      
+    </header>
+
+    
+    <div>
+        <h1 class="align">MADE WITH LOVE</h1>
+        <p class="align">We are a family of creators – close knit and a little crazy – handcrafting goods
+            at our workshop New York, USA. <br> We make beautiful products from quality materials
+            because believe each one is a representation of who we are close knit and a little crazy – handcrafting.</p>
+
+        <div class="flex">
+            <div class="child">
+                <span><a href="#section1" style="color: white; text-decoration: none;">-Armenia-</a></span>
+                <img src="../Images/Komitas and culture 1.png" alt="">
+            </div>
+            <div class="child">
+                <span><a href="#section2"  style="color: white; text-decoration: none;">-Nature-</a></span>
+                <img src="../Images/home.nature.2png.png" alt="">
+            </div>
+            <div class="child">
+                <span><a href="#section3"  style="color: white; text-decoration: none;">-Portrait-</a></span>
+                <img src="../Images/harrypoter2.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <h1 class="text"  id="section1">Armenia</h1>
+    <div class="images">
+        
+        <div class="armenia">
+
+            <div> <img src="../Images/armeniangirl.png" alt=""></div>
+            <div> <img src="../Images/artsakhsos.png" alt=""></div>
+            <div> <img src="../Images/Komitas and culture 1.png" alt=""></div>
+            <div><img src="../Images/picture5.jpg" alt=""></div>
+            <div> <img src="../Images/arevagorg.png" alt=""></div>
+        </div>
+    </div>
+
+    <h1 class="text" id="section2">Nature</h1>
+
+        <div class="images">
+        <div class="armenia" >
+           
+            <div> <img src="../Images/autumn5.png" alt=""> </div>
+            <div> <img src="../Images/NATUREWORK.png" alt=""> </div>
+            <div> <img src="../Images/futureanimation.png" alt=""> </div>
+            <div> <img src="../Images/specialgirl.gif" alt=""> </div>
+            <div> <img src="../Images/todaywinter1.png" alt=""> </div>
+        </div>
+    </div>
+
+    <h1 class="text" id="section3">Portraits</h1>
+    <div class="images">
+        <div class="armenia" >
+            
+          <div> <img src="../Images/china5.png" alt=""></div> 
+          <div>  <img src="../Images/yinyang2.png" alt=""> </div>
+           <div> <img src="../Images/me4.png" alt=""> </div>
+
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="waves">
+          <div class="wave" id="wave1"></div>
+          <div class="wave" id="wave2"></div>
+          <div class="wave" id="wave3"></div>
+          <div class="wave" id="wave4"></div>
+        </div>
+        <ul class="social-icon">
+            <li class="social-icon__item"><a class="social-icon__link" href="https://www.facebook.com/nvardpetrosyan2005">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                </a></li>
+    
+            </a></li>
+            <li class="social-icon__item"><a class="social-icon__link" href="https://www.linkedin.com/in/nvard-petrosyan-072999286">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                </a></li>
+            <li class="social-icon__item"><a class="social-icon__link" href="https://www.instagram.com/petrosyannart/">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a></li>
+        </ul>
+        <ul class="menu">
+          <li class="menu__item"><a class="menu__link" href="../index.html">Home</a></li>
+          <li class="menu__item"><a class="menu__link" href="about.html">About</a></li>
+          <li class="menu__item"><a class="menu__link" href="blog.html">Blog</a></li>
+          <li class="menu__item"><a class="menu__link" href="gallery.html">Gallery</a></li>
+          <li class="menu__item"><a class="menu__link" href="contact.html">Contact</a></li>
+        </ul>
+      </footer>
+
+      <script src="art.js"></script>
+      <script>
+            document.addEventListener("DOMContentLoaded", () => {
+     const menuToggle = document.getElementById("menu-toggle");
+     const navbar = document.getElementById("navbar");
+ 
+     // Add click event to the toggle button
+     menuToggle.addEventListener("click", () => {
+         navbar.classList.toggle("show"); // Add or remove the 'show' class to toggle visibility
+     });
+ })
+         </script>
+ 
+ <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+ <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+ 
+      </body>
