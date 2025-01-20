@@ -136,6 +136,9 @@
     .videoo {
       height: 450px;
     }
+    iframe {
+      width: 450px;
+    }
   
     .mainimage {
       width: 100%;
@@ -157,6 +160,9 @@
   
     .videoo {
       height: 350px;
+    }
+    iframe {
+      width: 350px;
     }
   
     .mainimage {
@@ -189,6 +195,9 @@
   
     .videoo {
       height: 200px;
+    }
+    iframe {
+      width: 350px;
     }
   
     .mainimage {
